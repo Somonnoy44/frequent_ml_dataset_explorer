@@ -19,7 +19,7 @@ def main():
 
 	html_variable = """
 
-		<h1> Hello </h1>
+		<div style = "background-color: red;"> <p style = "color:white; font-size: 22px">Made by Somonnoy Banerjee</p>
 
 	"""
 	st.markdown(html_variable, unsafe_allow_html = True)
